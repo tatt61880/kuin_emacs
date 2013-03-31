@@ -1,0 +1,6 @@
+# name: block (...) end block
+# key: block
+# --
+block ${1:a}
+    $0
+end block

@@ -1,0 +1,6 @@
+# name: foreach (...) end foreach
+# key: foreach
+# --
+foreach ${1:item}(${2:items})
+    $0
+end foreach

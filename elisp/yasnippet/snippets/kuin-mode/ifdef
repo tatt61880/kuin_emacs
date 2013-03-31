@@ -1,0 +1,6 @@
+# name: ifdef (...) end ifdef
+# key: ifdef
+# --
+ifdef (${1:debug})
+    $0
+end ifdef

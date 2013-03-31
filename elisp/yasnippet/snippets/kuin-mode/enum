@@ -1,0 +1,6 @@
+# name: enum (...) end enum
+# key: enum
+# --
+enum ${1:EName}
+    $0
+end enum

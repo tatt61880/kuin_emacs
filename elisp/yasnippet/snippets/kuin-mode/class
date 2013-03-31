@@ -1,0 +1,6 @@
+# name: class (...) end class
+# key: class
+# --
+class ${1:ClassName}(${2:CParent})
+    $0
+end class

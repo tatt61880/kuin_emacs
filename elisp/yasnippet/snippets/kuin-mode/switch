@@ -1,0 +1,8 @@
+# name: switch (...) end switch
+# key: switch
+# --
+switch ${1:s}(${2:n})
+case (${3:0})
+    $0
+default
+end switch

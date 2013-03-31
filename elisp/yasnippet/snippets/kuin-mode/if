@@ -1,0 +1,6 @@
+# name: if (...) end if
+# key: if
+# --
+if (${1:true})
+    $0
+end if

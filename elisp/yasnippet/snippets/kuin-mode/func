@@ -1,0 +1,6 @@
+# name: func (...) end func
+# key: func
+# --
+func ${1:FuncName}(${2:arguments})${3: : int}
+    $0
+end func

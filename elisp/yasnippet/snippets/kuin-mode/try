@@ -1,0 +1,8 @@
+# name: try (...) end try
+# key: try
+# --
+try ${1:e}
+catch (${2:0})
+    $0
+finally
+end try
