@@ -1,6 +1,6 @@
 ;;; kuin-mode.el
 ;;  Maintainer:    @tatt61880
-;;  Last Modified: 2017/09/27 09:04:59.
+;;  Last Modified: 2018/01/20 23:24:45.
 ;;
 ;;; How to use
 ;;  1. Put this file (kuin-mode.el) into emacs setting folder.
@@ -42,6 +42,7 @@
             ("\\<0\\(\\.[0-9]+\\)?\\>"               (0 font-lock-constant-face))
             ("\\<[0-9]\\w*\\>"                       (0 font-lock-warning-face))
 
+            ("\\<include\\>" (0 font-lock-keyword-face))
             ("\\<const\\>" (0 font-lock-keyword-face))
             ("\\<\\(class\\|enum\\|alias\\)\\>" (0 font-lock-keyword-face))
             ("\\<\\(int\\|float\\|char\\|bool\\|list\\|stack\\|queue\\|dict\\)\\>" (0 font-lock-type-face))
@@ -54,7 +55,7 @@
             ("\\<\\(while\\|for\\)\\>"                      (0 font-lock-keyword-face))
             ("\\<\\(throw\\|try\\|catch\\|finally\\)\\>"    (0 font-lock-keyword-face))
             ("\\<\\(true\\|false\\)\\>"                     (0 font-lock-constant-face))
-            ("\\<\\(null\\|nan\\|inf\\)\\>"                 (0 font-lock-constant-face))
+            ("\\<\\(null\\|inf\\)\\>"                 (0 font-lock-constant-face))
 
             ("'''"          (0 font-lock-warning-face))
             ("'[\n\r\t]+'"  (0 font-lock-warning-face))
@@ -64,6 +65,7 @@
 
             ("!="   (0 font-lock-warning-face))
             ("==+"  (0 font-lock-warning-face))
+
             ("="    (0 font-lock-keyword-face))
             ("<>"   (0 font-lock-keyword-face))
             ("<="   (0 font-lock-keyword-face))
